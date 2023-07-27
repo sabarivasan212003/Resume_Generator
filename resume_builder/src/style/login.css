@@ -1,0 +1,52 @@
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .login {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      max-width: 100%;
+    }
+  
+    .form-input,
+    .btn {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+.Main{
+    display: flex;
+}
+.sub1{
+    width: 60%;
+    height:auto;
+    margin-top: 170px;
+    padding-left: 100px;
+}
+.sub9{
+    width: 80%;
+    /* margin-top: 10%; */
+    /* margin-right: 10%; */
+    height: 800px;
+    /* height:auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://i.etsystatic.com/37417038/r/il/0edff0/4179958669/il_fullxfull.4179958669_q5a6.jpg');
+    /* background-color: antiquewhite; */
+}
+
+ @media screen and (max-width: 768px) {
+    .Main {
+        flex-direction: column;
+    }
+
+    .sub1, .sub9 {
+        flex: 1 1 100%;
+    }
+
+    .sub1 {
+        margin: 10px;
+        padding: 10px;
+    } 
+}

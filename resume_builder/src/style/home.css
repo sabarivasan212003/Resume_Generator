@@ -1,0 +1,31 @@
+.Main{
+    display: flex;
+}
+.sub1{
+    width: 60%;
+    height:auto;
+    margin-top: 170px;
+    padding-left: 100px;
+}
+.sub2{
+    width: 40%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/resume1.gif');
+    /* background-color: antiquewhite; */
+}
+
+/* @media screen and (max-width: 768px) {
+    .Main {
+        flex-direction: column;
+    }
+
+    .sub1, .sub2 {
+        flex: 1 1 100%;
+    }
+
+    .sub1 {
+        margin: 10px;
+        padding: 10px;
+    } */

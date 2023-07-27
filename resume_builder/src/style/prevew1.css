@@ -1,0 +1,12 @@
+.pre{
+display: flex;
+}
+.pre1{
+width: 40%;
+height: 750px;
+margin-left: 30px;
+}
+.pre2{
+width:60%;
+height: 500px;
+}

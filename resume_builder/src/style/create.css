@@ -1,0 +1,78 @@
+.main1{
+    display: flex;
+   padding: 10px;
+   margin-top: 70px;
+   background-color: beige;
+   /* background-image: url('https://img.freepik.com/free-psd/clean-modern-resume-cv-template_237398-297.jpg?size=626&ext=jpg&ga=GA1.2.2104703623.1688961485&semt=ais'); */
+   opacity: 0.8;
+}
+.subs1{
+    height: 500px;
+    /* background-color: aqua; */
+    width: calc(25% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('https://marketplace.canva.com/EAFRuCp3DcY/1/0/1131w/canva-black-white-minimalist-cv-resume-f5JNR-K5jjw.jpg');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subs2{
+    height: 500px;
+    /* background-color: aqua; */
+    width: calc(25% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('https://www.freesumes.com/wp-content/uploads/2023/05/resume-template-with-photo.jpg');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subs3{
+    height: 500px;
+    /* background-color: aqua; */
+    width: calc(25% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('https://d2o8m17mufr11r.cloudfront.net/polygon/small.png');
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subs4{
+    height: 500px;
+    /* background-color: aqua; */
+    width: calc(25% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/17%20Best%20Resume%20Templates%20That%20Will%20Help%20You%20Stand%20Out-2.png?width=500&name=17%20Best%20Resume%20Templates%20That%20Will%20Help%20You%20Stand%20Out-2.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Add a media query to adjust the layout for smaller screens */
+@media only screen and (max-width: 768px) {
+    .main1 {
+      flex-direction: column;
+    }
+  
+    .subs1, .subs2, .subs3, .subs4 {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  /* Add a media query to further adjust the layout for even smaller screens */
+  @media only screen and (max-width: 480px) {
+    .main1 {
+      margin-top: 50px;
+    }
+  }
+  /* Please note that I've combined the React component and the CSS code into their respective files. The component code remains the same, and I've added the media queries to the CSS file to make the layout responsive on different screen sizes. */
+  
+  
+  
+  
+  
+  
+  

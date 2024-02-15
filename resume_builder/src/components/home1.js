@@ -9,7 +9,7 @@ function Home1() {
     const navigate=useNavigate('');
     const user=useSelector(selectUser); 
     const hello=()=>{
-        navigate('/login')
+        navigate('/home')
     }
     return ( 
         <>
